@@ -1,7 +1,7 @@
 import os
 from nltk.tokenize import TweetTokenizer
 
-basedir = "/home/david/Programming/data/WMT/europarl"
+basedir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 testdir = os.path.join(basedir, "test")
 testfn = "europarl.test"
 labelsfn = "europarl.tokenized.test"

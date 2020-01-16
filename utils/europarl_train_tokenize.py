@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 from nltk.tokenize import TweetTokenizer
 
-basedir = "/home/david/Programming/data/WMT/europarl"
+basedir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 txt_dir = os.path.join(basedir, "txt")
 noxml_dir = os.path.join(basedir, "txt_noxml")
 

@@ -103,4 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# repo specific
 models/
+data/txt
+data/txt_noxml
+*.tgz

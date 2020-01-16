@@ -1,3 +1,4 @@
+import os
 import pickle
 
 basedir = "/home/david/Programming/data/WMT/europarl"
